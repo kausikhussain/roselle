@@ -4,6 +4,7 @@ import React, { useEffect, useRef } from "react";
 import * as THREE from "three";
 import { ProceduralLipstick } from "@/lib/proceduralLipstick";
 import { ProceduralRibbonSwirl } from "@/lib/proceduralSwirl";
+import { createStudioEnvironment } from "@/lib/studioEnvironment";
 import { ROSELLE_SHADES } from "@/data/shades";
 
 interface LipstickCanvasProps {
@@ -72,6 +73,14 @@ export default function LipstickCanvas({
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     rendererRef.current = renderer;
+
+    // Apply Procedural High-Luxe Studio HDRI Environment Map
+    try {
+      const envTexture = createStudioEnvironment(renderer);
+      scene.environment = envTexture;
+    } catch {
+      // Fallback gracefully
+    }
 
     // Lighting Studio
     const ambientLight = new THREE.AmbientLight(0xfff5f5, 0.9);

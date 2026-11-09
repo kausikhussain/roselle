@@ -29,19 +29,21 @@ export class ProceduralLipstick {
     // 1. Materials
     this.caseMaterial = new THREE.MeshPhysicalMaterial({
       color: new THREE.Color(shadeHex),
-      roughness: 0.18,
-      metalness: 0.15,
+      roughness: 0.12,
+      metalness: 0.12,
       clearcoat: 1.0,
-      clearcoatRoughness: 0.1,
-      reflectivity: 0.9,
+      clearcoatRoughness: 0.04,
+      reflectivity: 0.95,
+      ior: 1.52,
     });
 
     this.goldMaterial = new THREE.MeshPhysicalMaterial({
       color: new THREE.Color(0xe5a995), // Rose gold
-      roughness: 0.22,
-      metalness: 0.92,
+      roughness: 0.14,
+      metalness: 0.98,
       reflectivity: 1.0,
-      clearcoat: 0.3,
+      clearcoat: 0.4,
+      clearcoatRoughness: 0.05,
     });
 
     this.bulletMaterial = this.createBulletMaterial(shadeHex, finish);

@@ -10,6 +10,7 @@ export interface Muse {
   shadeHex: string;
   price: number;
   imagePrompt: string;
+  image?: string;
 }
 
 export const ROSELLE_MUSES: Muse[] = [
@@ -25,6 +26,7 @@ export const ROSELLE_MUSES: Muse[] = [
     shadeHex: "#E8A29A",
     price: 24.0,
     imagePrompt: "Editorial beauty portrait, golden hour, model holding lipstick, fresh glowing skin, subtle lip gloss nude",
+    image: "/assets/images/muse-nude.jpg",
   },
   {
     id: "muse-02",
@@ -38,6 +40,7 @@ export const ROSELLE_MUSES: Muse[] = [
     shadeHex: "#B21D3B",
     price: 28.0,
     imagePrompt: "Luxury gala portrait, model in silk gown with bold cherry velvet lipstick",
+    image: "/assets/images/muse-cherry.jpg",
   },
   {
     id: "muse-03",
@@ -51,6 +54,7 @@ export const ROSELLE_MUSES: Muse[] = [
     shadeHex: "#521A2A",
     price: 28.0,
     imagePrompt: "Extreme close-up macro portrait of dark berry lips, velvety texture",
+    image: "/assets/images/hero-campaign.jpg",
   },
   {
     id: "muse-04",
@@ -64,6 +68,7 @@ export const ROSELLE_MUSES: Muse[] = [
     shadeHex: "#E62E6B",
     price: 26.0,
     imagePrompt: "Joyful high-fashion candid shot of model with vibrant fuchsia lip gloss",
+    image: "/assets/images/muse-cherry.jpg",
   },
   {
     id: "muse-05",
@@ -77,6 +82,7 @@ export const ROSELLE_MUSES: Muse[] = [
     shadeHex: "#8F1023",
     price: 28.0,
     imagePrompt: "High-contrast couture studio portrait, bold red lipstick, gold jewelry",
+    image: "/assets/images/hero-campaign.jpg",
   },
   {
     id: "muse-06",
@@ -90,6 +96,7 @@ export const ROSELLE_MUSES: Muse[] = [
     shadeHex: "#D95B72",
     price: 26.0,
     imagePrompt: "Soft natural light portrait of woman with soft blurred rose lips",
+    image: "/assets/images/muse-nude.jpg",
   },
   {
     id: "muse-07",
@@ -103,6 +110,7 @@ export const ROSELLE_MUSES: Muse[] = [
     shadeHex: "#DE5B50",
     price: 25.0,
     imagePrompt: "Mediterranean summer portrait, sun-kissed skin, coral satin lips",
+    image: "/assets/images/muse-nude.jpg",
   },
   {
     id: "muse-08",
@@ -116,5 +124,6 @@ export const ROSELLE_MUSES: Muse[] = [
     shadeHex: "#854457",
     price: 26.0,
     imagePrompt: "90s supermodel studio portrait, muted mauve lipstick, dramatic lighting",
+    image: "/assets/images/muse-cherry.jpg",
   },
 ];

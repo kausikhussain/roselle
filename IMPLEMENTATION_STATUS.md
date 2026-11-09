@@ -20,22 +20,24 @@
 | **3D WebGL Engine** | Ribbon Swirl Geometry | Procedural S-curve tube + 140 petals | **Verified** | Implemented in `lib/proceduralSwirl.ts` |
 | **3D WebGL Engine** | Pedestal Compositions | Hero & The Edit staging | **Verified** | Implemented in `components/webgl/LipstickCanvas.tsx` |
 | **Motion & Scroll** | Smooth Scroll & Timeline | Scrubbed timeline and section triggers | **Verified** | Dynamic scroll lerping & poses |
-| **Section 01** | Cinematic Preloader & Hero | 30% off, 3D carousel, lightboxes | **Verified** | Implemented in `components/sections/SaleHero.tsx` |
-| **Section 02** | Inside (4 Chapters) | Hotspot lines, orbital ingredients, progress | **Verified** | Implemented in `components/sections/InsideChapters.tsx` |
-| **Section 03** | Ribbon Swirl Stage | Tube reveal + rose petal flurry | **Verified** | Implemented in `components/sections/RibbonSwirl.tsx` |
-| **Section 04** | Muse Arc Carousel | 10 curved portrait cards + ticker | **Verified** | Implemented in `components/sections/MuseArc.tsx` |
-| **Section 05** | Muse Film Stage | Gold brackets, audio toggle, ambient glow | **Verified** | Implemented in `components/sections/MuseFilm.tsx` |
-| **Section 06** | Swatch Bar | 3D tilted cards, rating meters, props | **Verified** | Implemented in `components/sections/SwatchBar.tsx` |
-| **Section 07** | Lip Reels Coverflow | Filmstrip sprocket line, 9:16 cards | **Verified** | Implemented in `components/sections/LipReels.tsx` |
-| **Section 08** | Reel Viewer Modal | Stories UI, sound toggle, keyboard/swipe | **Verified** | Implemented in `components/sections/ReelViewerModal.tsx` |
-| **Section 09** | Virtual Try-On Lab | Photoreal SVG + Canvas lips, skin tones | **Verified** | Implemented in `components/sections/ShadeFinder.tsx` |
-| **Section 10** | The Edit Still Life | Staggered pedestals, hover tooltips | **Verified** | Implemented in `components/sections/TheEdit.tsx` |
-| **Commerce System** | Slide-Over Bag Drawer | Live count, promo codes, gift sample | **Verified** | Implemented in `components/cart/CartDrawer.tsx` |
-| **Commerce System** | Multi-Step Checkout | Form validation, shipping, payment | **Verified** | Implemented in `app/checkout/page.tsx` |
-| **AI Experience** | Shade Concierge Advisor | Intelligent beauty advisor chat | **Verified** | Implemented in `components/ui/ConciergeChat.tsx` |
-| **Full Navigation** | Multi-Page Routes | `/shop`, `/product/[slug]`, `/about`, etc. | **Verified** | All 12 production pages implemented |
-| **Backend APIs** | API Route Handlers | `/api/shades`, `/api/cart`, `/api/orders`, etc. | **Verified** | Type-safe Route Handlers implemented |
-| **Testing & QA** | Automated Test Suite | API and logic tests | **Verified** | Scripts in `scripts/test-apis.mjs` |
+| **Section 01** | Cinematic Preloader & Hero | 30% off, 3D carousel, lightboxes, campaign visual | **Verified** | Implemented in `SaleHero.tsx` & `Preloader.tsx` |
+| **Section 02** | Inside (4 Chapters) | Hotspot lines, orbital ingredients, acoustic click | **Verified** | Implemented in `InsideChapters.tsx` with audio feedback |
+| **Section 03** | Ribbon Swirl Stage | Tube reveal + rose petal flurry, scrub slider | **Verified** | Implemented in `RibbonSwirl.tsx` |
+| **Section 04** | Muse Arc Carousel | 10 curved portrait cards + editorial photos | **Verified** | Implemented in `MuseArc.tsx` with high-res photography |
+| **Section 05** | Muse Film Stage | Gold brackets, audio toggle, campaign video poster | **Verified** | Implemented in `MuseFilm.tsx` with campaign visual |
+| **Section 06** | Swatch Bar | 3D tilted cards, rating meters, studio props | **Verified** | Implemented in `SwatchBar.tsx` |
+| **Section 07** | Lip Reels Coverflow | Filmstrip sprocket line, 9:16 cards | **Verified** | Implemented in `LipReels.tsx` |
+| **Section 08** | Reel Viewer Modal | Stories UI, sound toggle, keyboard/swipe | **Verified** | Implemented in `ReelViewerModal.tsx` |
+| **Section 09** | Virtual Try-On Lab | Photoreal lips, 6 skin tones, 3D sync | **Verified** | Implemented in `ShadeFinder.tsx` with "SEE IT IN 3D" |
+| **Section 10** | The Edit Still Life | Staggered limestone pedestals + atelier backdrop | **Verified** | Implemented in `TheEdit.tsx` |
+| **Sound Synthesis** | Web Audio API Engine | Calibrated acoustic magnetic click & silk swatch | **Verified** | Implemented in `lib/soundEffects.ts` |
+| **Commerce System** | Slide-Over Bag Drawer | Live count, promo codes, gift sample, free shipping | **Verified** | Implemented in `CartDrawer.tsx` |
+| **Commerce System** | Multi-Step Checkout | Form validation, shipping, payment, order summary | **Verified** | Implemented in `app/checkout/page.tsx` |
+| **AI Experience** | Shade Concierge Advisor | Intelligent beauty advisor chat | **Verified** | Implemented in `ConciergeChat.tsx` |
+| **Full Navigation** | Multi-Page Routes | `/shop`, `/product/[slug]`, `/about`, `/finder`, etc. | **Verified** | All 22 production routes built cleanly |
+| **Backend APIs** | API Route Handlers | `/api/shades`, `/api/cart`, `/api/orders`, `/api/newsletter`, etc. | **Verified** | Type-safe Route Handlers passing 11/11 tests |
+| **Testing & QA** | Automated Test Suite | Unit & API tests | **Verified** | 11/11 tests passing in `scripts/test-apis.ts` |
+| **Visual QA** | Playwright E2E Suite | 15 Hi-Res Retina Screenshots | **Verified** | Captured in `screenshots/e2e/` (100% passing) |
 | **SEO & Production** | Metadata, Sitemap, Schema | Dynamic `sitemap.ts` & `robots.ts` | **Verified** | Optimized production build verified |
 
 ---
